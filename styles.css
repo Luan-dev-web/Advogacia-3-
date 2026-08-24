@@ -15,9 +15,9 @@ html {
     scroll-behavior: smooth;
 }
 
-.logo-da-advogacia-2{
-        width: 60px;
-    }
+.logo-da-advogacia-2 {
+    width: 60px;
+}
 
 header {
     position: fixed;
@@ -1804,7 +1804,7 @@ footer {
         width: 60px;
     }
 
-     #menu-toggle {
+    #menu-toggle {
         display: block;
         font-size: 30px;
         cursor: pointer;
@@ -1829,11 +1829,11 @@ footer {
         z-index: 9999;
         margin: 0;
         gap: 30px;
-        display: none; 
+        display: none;
     }
 
     nav.ativo {
-        display: flex; 
+        display: flex;
     }
 
     .links-menu {
@@ -2239,6 +2239,11 @@ footer {
         gap: 18%;
     }
 
+    header.menu-aberto {
+        background-color: #003600;
+        border-bottom: #a77d4b solid 2px;
+    }
+
     #topo {
         top: 0;
     }
@@ -2270,7 +2275,7 @@ footer {
         width: 60px;
     }
 
-     #menu-toggle {
+    #menu-toggle {
         display: block;
         font-size: 30px;
         cursor: pointer;
@@ -2283,7 +2288,7 @@ footer {
 
     nav {
         position: fixed;
-        top: 70px;
+        top: 75px;
         right: 0;
         background-color: #003600;
         flex-direction: column;
@@ -2295,11 +2300,12 @@ footer {
         z-index: 9999;
         margin: 0;
         gap: 30px;
-        display: none; 
+        display: none;
     }
 
     nav.ativo {
-        display: flex; 
+        display: flex;
+        padding-bottom: 100px;
     }
 
     .links-menu {
@@ -2673,7 +2679,7 @@ footer {
         font-size: 10px;
     }
 
-    .logo-da-advogacia-2{
+    .logo-da-advogacia-2 {
         width: 40px;
     }
 
@@ -2719,6 +2725,11 @@ footer {
         gap: 17%;
     }
 
+    header.menu-aberto {
+        background-color: #003600;
+        border-bottom: #a77d4b solid 2px;
+    }
+
     #topo {
         top: 0;
     }
@@ -2750,7 +2761,7 @@ footer {
         width: 60px;
     }
 
-     #menu-toggle {
+    #menu-toggle {
         display: block;
         font-size: 30px;
         cursor: pointer;
@@ -2763,7 +2774,7 @@ footer {
 
     nav {
         position: fixed;
-        top: 70px;
+        top: 75px;
         right: 0;
         background-color: #003600;
         flex-direction: column;
@@ -2775,11 +2786,12 @@ footer {
         z-index: 9999;
         margin: 0;
         gap: 30px;
-        display: none; 
+        display: none;
     }
 
     nav.ativo {
-        display: flex; 
+        display: flex;
+        padding-bottom: 100px;
     }
 
     .links-menu {
@@ -2927,7 +2939,7 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 80px 0;
-            margin-top: 50px;
+        margin-top: 50px;
     }
 
     .fundo-home-advocacia {
@@ -3154,7 +3166,7 @@ footer {
         font-size: 10px;
     }
 
-    .logo-da-advogacia-2{
+    .logo-da-advogacia-2 {
         width: 40px;
     }
 
