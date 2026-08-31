@@ -3191,3 +3191,84 @@ footer {
         color: #CCA372;
     }
 }
+
+/********************************************************* PUBLI *****************************************************************************/
+
+.publi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    border-top: solid 2px #13412e;
+    padding: 25px;
+}
+
+.publi-imagem {
+    width: 100px;
+}
+
+.publi-texto {
+    color: white;
+    font-family: "Unna", serif;
+    font-size: 20px;
+    color: #14563b;
+}
+
+@media (max-width: 700px) {
+
+    .publi {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: black;
+        border-top: solid 2px #13412e;
+        padding: 25px;
+    }
+
+    .publi-imagem {
+        width: 70px;
+    }
+
+    .publi-texto {
+        color: white;
+        font-family: "Unna", serif;
+        font-size: 20px;
+        color: #14563b;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width> 500px) {
+    
+    .publi {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: black;
+        border-top: solid 2px #13412e;
+        padding: 25px;
+    }
+
+    .publi-imagem {
+        width: 70px;
+    }
+
+    .publi-texto {
+        color: white;
+        font-family: "Unna", serif;
+        font-size: 20px;
+        color: #14563b;
+        font-size: 11px;
+    }
+
+}
